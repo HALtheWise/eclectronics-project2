@@ -1,4 +1,4 @@
-update=Tue 26 Sep 2017 08:53:43 PM EDT
+update=Tue 26 Sep 2017 09:33:17 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -63,3 +61,5 @@ LibName31=contrib
 LibName32=valves
 LibName33=STM32F7x
 LibName34=stm32_data/stm32-v2
+[general]
+version=1

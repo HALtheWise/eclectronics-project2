@@ -1,1 +1,128 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:STM32F7x
+LIBS:stm32-v2
+LIBS:camboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32F746VGT6 U?
+U 1 1 59CAFAA7
+P 1300 1750
+F 0 "U?" H 1500 2000 60  0000 L CNN
+F 1 "STM32F746VGT6" H 1500 1900 60  0000 L CNN
+F 2 "" H 1300 1750 60  0001 C CNN
+F 3 "" H 1300 1750 60  0001 C CNN
+	1    1300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F746VGT6 U?
+U 2 1 59CAFB26
+P 1300 3250
+F 0 "U?" H 1500 3500 60  0000 L CNN
+F 1 "STM32F746VGT6" H 1500 3400 60  0000 L CNN
+F 2 "" H 1300 3250 60  0001 C CNN
+F 3 "" H 1300 3250 60  0001 C CNN
+	2    1300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F746VGT6 U?
+U 3 1 59CAFB7D
+P 1300 3950
+F 0 "U?" H 1500 4200 60  0000 L CNN
+F 1 "STM32F746VGT6" H 1500 4100 60  0000 L CNN
+F 2 "" H 1300 3950 60  0001 C CNN
+F 3 "" H 1300 3950 60  0001 C CNN
+	3    1300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F746VGT6 U?
+U 4 1 59CAFBB8
+P 7750 1750
+F 0 "U?" H 7950 2000 60  0000 L CNN
+F 1 "STM32F746VGT6" H 7950 1900 60  0000 L CNN
+F 2 "" H 7750 1750 60  0001 C CNN
+F 3 "" H 7750 1750 60  0001 C CNN
+	4    7750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F746VGT6 U?
+U 5 1 59CAFC81
+P 1300 4950
+F 0 "U?" H 1500 5200 60  0000 L CNN
+F 1 "STM32F746VGT6" H 1500 5100 60  0000 L CNN
+F 2 "" H 1300 4950 60  0001 C CNN
+F 3 "" H 1300 4950 60  0001 C CNN
+	5    1300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F746VGT6 U?
+U 6 1 59CAFD02
+P 1300 6050
+F 0 "U?" H 1500 6300 60  0000 L CNN
+F 1 "STM32F746VGT6" H 1500 6200 60  0000 L CNN
+F 2 "" H 1300 6050 60  0001 C CNN
+F 3 "" H 1300 6050 60  0001 C CNN
+	6    1300 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F746VGT6 U?
+U 7 1 59CAFE6F
+P 1250 7450
+F 0 "U?" H 1450 7700 60  0000 L CNN
+F 1 "STM32F746VGT6" H 1450 7600 60  0000 L CNN
+F 2 "" H 1250 7450 60  0001 C CNN
+F 3 "" H 1250 7450 60  0001 C CNN
+	7    1250 7450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
