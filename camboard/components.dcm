@@ -17,4 +17,9 @@ D Switch, dual pole double throw, separate symbols
 K switch dual-pole double-throw DPDT spdt ON-ON
 $ENDCMP
 #
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
 #End Doc Library
