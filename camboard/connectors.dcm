@@ -6,6 +6,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_02x20_Row_Letter_First
+D Generic connector, double row, 02x20, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_ARM_JTAG_SWD_20
 D Standard IDC20 Male Connector, ARM legacy JTAG and SWD interface
 K IDC20 Male Connector ARM JTAG SWD
