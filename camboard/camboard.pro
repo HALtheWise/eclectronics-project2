@@ -1,4 +1,4 @@
-update=9/27/2017 11:33:17 AM
+update=9/29/2017 3:21:21 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=USB_micro_b
 [eeschema/libraries]
 LibName1=stm32_data/stm32-v2
 LibName2=components
@@ -64,3 +64,4 @@ LibName32=opto
 LibName33=atmel
 LibName34=contrib
 LibName35=valves
+LibName36=USB_micro_b/usb_microb_2040002-1
