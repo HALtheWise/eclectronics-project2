@@ -1,4 +1,4 @@
-update=Fri 29 Sep 2017 04:28:30 PM EDT
+update=Mon 02 Oct 2017 03:29:11 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,13 @@ LibName34=atmel
 LibName35=contrib
 LibName36=valves
 LibName37=USB_micro_b/usb_microb_2040002-1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
