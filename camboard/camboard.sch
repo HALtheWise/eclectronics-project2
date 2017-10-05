@@ -969,7 +969,6 @@ F 3 "" H 6750 7350 50  0001 C CNN
 	1    6750 7350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 675  1075
 Wire Wire Line
 	7800 1075 7475 1075
 Wire Wire Line
@@ -1204,12 +1203,6 @@ F 3 "" H 1500 5525 50  0001 C CNN
 	1    1150 5375
 	1    0    0    -1  
 $EndComp
-NoConn ~ 800  6075
-NoConn ~ 900  6075
-NoConn ~ 1000 6075
-NoConn ~ 1100 6075
-NoConn ~ 1200 6075
-NoConn ~ 1300 6075
 $Comp
 L GND #PWR028
 U 1 1 59CEA5F3
@@ -1617,10 +1610,6 @@ $EndComp
 Wire Wire Line
 	8275 3825 7700 3825
 Wire Wire Line
-	8300 3900 8300 3925
-Wire Wire Line
-	8300 3925 7700 3925
-Wire Wire Line
 	7700 3925 7700 4100
 Text Notes 10850 4875 2    60   ~ 0
 Photo/Video
@@ -1648,8 +1637,6 @@ Wire Wire Line
 	6675 7550 6750 7550
 Wire Wire Line
 	6750 7350 6675 7350
-Text Notes 4650 6875 0    60   ~ 0
-???\n
 Wire Notes Line
 	575  600  4125 600 
 Wire Notes Line
@@ -1700,4 +1687,47 @@ Wire Notes Line
 	6925 7750 2800 7750
 Wire Notes Line
 	2800 7750 2800 6550
+Wire Wire Line
+	800  6075 1375 6075
+Wire Wire Line
+	1375 6075 1375 6125
+$Comp
+L GND #PWR?
+U 1 1 59D6B6D3
+P 1375 6125
+F 0 "#PWR?" H 1375 5875 50  0001 C CNN
+F 1 "GND" H 1375 5975 50  0000 C CNN
+F 2 "" H 1375 6125 50  0001 C CNN
+F 3 "" H 1375 6125 50  0001 C CNN
+	1    1375 6125
+	1    0    0    -1  
+$EndComp
+Connection ~ 900  6075
+Connection ~ 1000 6075
+Connection ~ 1100 6075
+Connection ~ 1200 6075
+Connection ~ 1300 6075
+$Comp
+L GND #PWR?
+U 1 1 59D6C839
+P 675 1075
+F 0 "#PWR?" H 675 825 50  0001 C CNN
+F 1 "GND" H 675 925 50  0000 C CNN
+F 2 "" H 675 1075 50  0001 C CNN
+F 3 "" H 675 1075 50  0001 C CNN
+	1    675  1075
+	1    0    0    -1  
+$EndComp
+Text Notes 6400 7225 0    60   ~ 0
+???\n
+Text Notes 8350 800  0    60   ~ 0
+???
+Text Notes 7825 1475 0    60   ~ 0
+??? Symbol
+Text Notes 10425 1850 0    60   ~ 0
+??? too big?
+Wire Wire Line
+	7700 3925 8275 3925
+Text Notes 10550 3775 0    60   ~ 0
+??? Interupts\n
 $EndSCHEMATC
