@@ -1,4 +1,4 @@
-update=Mon 02 Oct 2017 03:29:11 PM EDT
+update=10/5/2017 4:22:26 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=USB_micro_b
+LibDir=USB_micro_b;uSD_card
 [eeschema/libraries]
 LibName1=camboard-rescue
 LibName2=stm32_data/stm32-v2
@@ -66,13 +76,4 @@ LibName34=atmel
 LibName35=contrib
 LibName36=valves
 LibName37=USB_micro_b/usb_microb_2040002-1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName38=uSD_card/114-00841-68
