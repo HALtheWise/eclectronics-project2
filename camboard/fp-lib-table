@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name USB_micro_b)(type KiCad)(uri "$(KIPRJMOD)/USB_micro_b")(options "")(descr ""))
   (lib (name uSD_card)(type KiCad)(uri "$(KIPRJMOD)/uSD_card")(options "")(descr ""))
+  (lib (name DPDT_switch)(type KiCad)(uri "$(KIPRJMOD)/JS202011SCQN.pretty")(options "")(descr ""))
 )
