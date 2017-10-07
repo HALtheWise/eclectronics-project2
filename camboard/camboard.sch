@@ -431,7 +431,7 @@ U 1 1 59CD2978
 P 4800 1650
 F 0 "J4" H 4400 900 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_20" H 5275 575 50  0000 R BNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 5250 600 50  0001 L TNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm" H 5250 600 50  0001 L TNN
 F 3 "" V 4450 400 50  0001 C CNN
 	1    4800 1650
 	1    0    0    -1  
