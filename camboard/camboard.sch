@@ -1546,8 +1546,6 @@ Connection ~ 1700 7600
 Connection ~ 1900 7600
 Connection ~ 2100 7600
 Connection ~ 2300 7600
-Wire Wire Line
-	550  7300 2500 7300
 Connection ~ 700  7300
 Connection ~ 900  7300
 Connection ~ 1100 7300
@@ -1787,17 +1785,6 @@ F 3 "" H 2300 7450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C Cp7
-U 1 1 59D9FF2F
-P 2500 7450
-F 0 "Cp7" H 2525 7550 50  0000 L CNN
-F 1 "100nF" V 2525 7050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2538 7300 50  0001 C CNN
-F 3 "" H 2500 7450 50  0001 C CNN
-	1    2500 7450
-	-1   0    0    1   
-$EndComp
-$Comp
 L Conn_01x25_Female J7
 U 1 1 59D82062
 P 9975 4925
@@ -1819,4 +1806,6 @@ F 3 "" H 8075 4925 50  0001 C CNN
 	1    8075 4925
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	2300 7300 550  7300
 $EndSCHEMATC
