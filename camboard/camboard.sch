@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:camboard-rescue
 LIBS:stm32-v2
 LIBS:components
 LIBS:connectors
@@ -247,7 +246,7 @@ F 3 "" H 3250 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_DPDT_x2-RESCUE-camboard SW1
+L SW_DPDT_x2 SW1
 U 1 1 59CBC80C
 P 3400 7025
 F 0 "SW1" H 3400 7350 50  0000 C CNN
@@ -1014,7 +1013,7 @@ F 3 "" H 10475 3425 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW_DPDT_x2-RESCUE-camboard SW4
+L SW_DPDT_x2 SW4
 U 1 1 59CF7B5F
 P 10850 4325
 F 0 "SW4" H 10850 4575 50  0000 C CNN
@@ -1232,7 +1231,7 @@ $EndComp
 Text Notes 10550 3775 0    60   ~ 0
 ??? Interupts\n
 $Comp
-L SW_DPDT_x2-RESCUE-camboard SW5
+L SW_DPDT_x2 SW5
 U 1 1 59D83FE7
 P 6475 7450
 F 0 "SW5" H 6475 7725 50  0000 C CNN
@@ -1243,7 +1242,7 @@ F 3 "" H 6475 7620 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_DPDT_x2-RESCUE-camboard SW1
+L SW_DPDT_x2 SW1
 U 2 1 59D847D4
 P 3400 7025
 F 0 "SW1" H 3400 7275 50  0000 C CNN
@@ -1254,7 +1253,7 @@ F 3 "" H 3400 7195 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SW_DPDT_x2-RESCUE-camboard SW5
+L SW_DPDT_x2 SW5
 U 2 1 59D84B7E
 P 6475 7450
 F 0 "SW5" H 6475 7620 50  0000 C CNN
@@ -1265,7 +1264,7 @@ F 3 "" H 6475 7620 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_DPDT_x2-RESCUE-camboard SW4
+L SW_DPDT_x2 SW4
 U 2 1 59D85D34
 P 10850 4325
 F 0 "SW4" H 10850 4495 50  0000 C CNN
