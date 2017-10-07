@@ -903,17 +903,6 @@ F 3 "" H 9775 6125 50  0001 C CNN
 	1    9775 6125
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3V3 #PWR34
-U 1 1 59CF1249
-P 8275 6025
-F 0 "#PWR34" H 8275 5875 50  0001 C CNN
-F 1 "+3V3" H 8275 6165 50  0000 C CNN
-F 2 "" H 8275 6025 50  0001 C CNN
-F 3 "" H 8275 6025 50  0001 C CNN
-	1    8275 6025
-	0    1    1    0   
-$EndComp
 Text Label 9775 5925 2    60   ~ 0
 USB_5V
 $Comp
@@ -941,8 +930,6 @@ $EndComp
 Text Label 8275 5825 0    60   ~ 0
 NRST
 Text Label 9775 5825 2    60   ~ 0
-VIN
-Text Label 8275 5925 0    60   ~ 0
 VIN
 $Comp
 L SW_Push SW2
@@ -1283,17 +1270,6 @@ F 1 "PWR_FLAG" H 1925 5000 50  0000 C CNN
 F 2 "" H 1925 4850 50  0001 C CNN
 F 3 "" H 1925 4850 50  0001 C CNN
 	1    1925 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR35
-U 1 1 59D845AD
-P 8275 6225
-F 0 "#PWR35" H 8275 5975 50  0001 C CNN
-F 1 "GND" H 8275 6075 50  0000 C CNN
-F 2 "" H 8275 6225 50  0001 C CNN
-F 3 "" H 8275 6225 50  0001 C CNN
-	1    8275 6225
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1694,8 +1670,6 @@ Wire Wire Line
 	1800 4850 1800 4975
 Connection ~ 1925 4850
 Wire Wire Line
-	8275 6125 8275 6225
-Wire Wire Line
 	9775 6025 9775 6125
 Connection ~ 3600 7025
 Wire Wire Line
@@ -1807,4 +1781,7 @@ F 3 "" H 8075 4925 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2300 7300 550  7300
+NoConn ~ 8275 6025
+NoConn ~ 8275 6125
+NoConn ~ 8275 5925
 $EndSCHEMATC
