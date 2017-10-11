@@ -752,17 +752,6 @@ F 3 "" H 700 7450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C3
-U 1 1 59CE5301
-P 1100 7450
-F 0 "C3" H 1125 7550 50  0000 L CNN
-F 1 "1uF" V 1125 7050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1138 7300 50  0001 C CNN
-F 3 "" H 1100 7450 50  0001 C CNN
-	1    1100 7450
-	-1   0    0    1   
-$EndComp
-$Comp
 L +3V3 #PWR1
 U 1 1 59CE57C3
 P 550 7300
@@ -1514,7 +1503,6 @@ Connection ~ 4650 7250
 Wire Wire Line
 	700  7600 2500 7600
 Connection ~ 900  7600
-Connection ~ 1100 7600
 Connection ~ 1300 7600
 Connection ~ 1500 7600
 Connection ~ 1700 7600
@@ -1523,7 +1511,6 @@ Connection ~ 2100 7600
 Connection ~ 2300 7600
 Connection ~ 700  7300
 Connection ~ 900  7300
-Connection ~ 1100 7300
 Connection ~ 1300 7300
 Connection ~ 1500 7300
 Connection ~ 1700 7300
