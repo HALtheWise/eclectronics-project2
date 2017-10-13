@@ -1,3 +1,3 @@
 # eclectronics-project2
 
-![camboard][./camboard/camboard.png]
+![camboard](camboard/camboard.png)
