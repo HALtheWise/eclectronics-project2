@@ -111,6 +111,7 @@ int main(void)
 
   /* USER CODE BEGIN 2 */
 
+  HAL_GPIO_WritePin(CAM_RESET_GPIO_Port, CAM_RESET_Pin, 1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
