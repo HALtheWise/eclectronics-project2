@@ -71,9 +71,10 @@ static void MX_I2C2_Init(void);
 
 /* USER CODE BEGIN 0 */
 #define OV7720_REG_NUM 			4
-#define OV7720_WRITE_ADDR 	0x42
+#define OV7720_WRITE_ADDR 	    0x42
 #define OV7720_READ_ADDR 		0x43
 
+#define OV2640_I2C_ADDR         0x30
 
 #define IMG_ROWS    320
 #define IMG_COLUMNS 240
@@ -124,10 +125,22 @@ int main(void)
 	  HAL_GPIO_WritePin(LEDG_GPIO_Port, LEDG_Pin,
 			  HAL_GPIO_ReadPin(PVSWITCH_GPIO_Port,PVSWITCH_Pin));
 
-	  const uint8_t* str = "Hello World, from Olin!\n";
+	  uint8_t i2cbuffer[10] = {42};
+
+	  int error = HAL_I2C_Mem_Read(&hi2c2, OV2640_I2C_ADDR, 0x00, I2C_MEMADD_SIZE_8BIT, &i2cbuffer,1 ,1000);
+
+	  uint8_t str[100]={};
+	  sprintf(str, "Data from i2c: %x (error %x)\n", i2cbuffer[0], error);
 	  HAL_UART_Transmit(&huart3, str, strlen(str), 0xFFFF);
 
+	  for (int i = 0; i < 256; i++){
+		  uint8_t str[100]={};
+		  if(0==HAL_I2C_IsDeviceReady(&hi2c2, i, 2, 100)){
+			  sprintf(str, "Response from device %x \n", i);
+			  HAL_UART_Transmit(&huart3, str, strlen(str), 0xFFFF);
+		  }
 
+	  }
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
