@@ -51,6 +51,8 @@
 #define LEDG_GPIO_Port GPIOE
 #define LEDR_Pin GPIO_PIN_3
 #define LEDR_GPIO_Port GPIOE
+#define CAM_RESET_Pin GPIO_PIN_0
+#define CAM_RESET_GPIO_Port GPIOA
 #define PVSWITCH_Pin GPIO_PIN_5
 #define PVSWITCH_GPIO_Port GPIOD
 #define SHUTTER_Pin GPIO_PIN_7
